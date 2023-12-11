@@ -1,5 +1,5 @@
 from queue import Queue
-with open("input.in", "r") as f:
+with open("./input.in", "r") as f:
     m = [l.strip() for l in f]
     n = {
         "|": [ ( 0,-1), ( 0, 1) ],
